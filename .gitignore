@@ -1,0 +1,45 @@
+# 의존성 디렉토리
+node_modules/
+
+# 빌드 출력물
+dist/
+build/
+out/
+lib/
+
+# 로그 파일
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# 환경 변수 및 비밀 정보
+.env
+.env.*
+# TypeScript 캐시
+*.tsbuildinfo
+.eslintcache
+
+# 테스트 관련
+coverage/
+.nyc_output/
+
+# IDE 설정
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# 프로젝트 특정 백업 파일 등
+*.bak
+*.backup
+*~
+
+# 기타
+.DS_Store
+Thumbs.db
